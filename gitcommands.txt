@@ -1,0 +1,100 @@
+GIT Commands
+
+git init
+git add remote origin <git url>
+git add .
+git commit -m "first commit"
+git push origin master
+
+
+git log --author="Naveen AutomationLabs"
+git log --before="2023-06-01"
+git log --grep="cart"
+git log --stat
+git log --oneline
+git log --reverse
+git show a2f317b
+git show HEAD
+git show HEAD^2
+git shortlog
+git blame src/main/java/com/qa/opencart/LoginPage.java -- Line by line done by author
+
+git switch/checkout master
+
+git branch naveen
+delete branch--->
+git branch -r
+git branch -vv (local + remote)
+
+git push --d naveen
+
+local merge from master to feature
+git checkout -b feature
+go to github.com <remote>
+create TestPage from Master branch
+open cmd line
+git pull origin master
+git checkout feature
+git merge master <TestPage.java file is available>
+
+---Reset
+git reset --soft HEAD^ -- remove local repo 
+git reset --mixed HEAD^ - remove from local repo + staging
+git reset --hard HEAD^ -- remove from local repo + staging + working copy
+
+delete remote copy commit:
+=============
+git push -f origin master
+
+
+tags & Releases ====>
+git tag v2.0
+git push origin v2.0
+
+create feature3 in eclipse:
+git status
+git add .
+git commit -m "feature3"
+git push v3.0 
+
+open github==>
+Go to Release section
+select the Release version 3.0
+Featue3 for UI Automation
+Press Enter. 
+Created Source code .zip and tar.gz files.
+
+https://learngitbranching.org
+-----------
+git branch naveen
+git checkout naveen
+git commit
+git commit
+git commit
+git checkout main
+git commit
+git commit
+git commit
+git commit
+git branch selenium
+git checkout selenium
+git commit
+git commit
+git commit
+git checkout naveen
+git commit
+git commit
+-------
+git branch loginpage
+git checkout loginpage
+git commit
+git commit
+git commit
+git commit
+git checkout main
+git commit
+git commit
+git checkout login
+git merge main
+---
+git checkout -b AP

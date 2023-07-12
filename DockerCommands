@@ -1,0 +1,15 @@
+docker pull image
+docker run -d --name test -p 80:80 image name
+run = pull + run
+docker images
+docker ps -a (running + exit state)
+docker ps --> only running state
+docker rm container id
+docker rmi image id
+docker stop/kill container id
+docker restart/start
+docker stop
+docker logs container id
+docker system prune -a
+
+set userpermission:
