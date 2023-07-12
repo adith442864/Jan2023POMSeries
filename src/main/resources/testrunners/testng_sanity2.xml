@@ -22,11 +22,9 @@
 	</test>
 
 	<!-- test name="Register Page Test">
-	  <parameter name="browser"
-	value="chrome"></parameter>
+	  <parameter name="browser" value="chrome"></parameter>
     <classes>
-      <class
-	name="com.qa.opencart.tests.RegisterPageTest"/>
+      <class name="com.qa.opencart.tests.RegisterPageTest"/>
     </classes>
   </test> -->
 
@@ -39,13 +37,13 @@
 		</classes>
 	</test> -->
 
-	<!--test name="Search Page Test">
-		<parameter name="browser" value="firefox"></parameter>
-		<parameter name="browserversion" value="99.0"></parameter>
+	<test name="Search Page Test">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="browserversion" value="113.0"></parameter>
 		<classes>
 			<class name="com.qa.opencart.tests.SearchPageTest" />
 		</classes>
-	</test> -->
+	</test>
 
 
 	<!--test name="Product Info Test">
