@@ -109,8 +109,9 @@
 					<reuseForks>true</reuseForks>
 					<!--argLine>-Xmx1024m -XX:MaxMetaspaceSize=512m</argLine> -->
 					<suiteXmlFiles>
-						<!--suiteXmlFile>src/main/resources/testrunners/testng_sanity.xml</suiteXmlFile>-->
-						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+						<suiteXmlFile>src/main/resources/testrunners/testng_regression.xml</suiteXmlFile>-->
+						<suiteXmlFile>src/main/resources/testrunners/testng_sanity2.xml</suiteXmlFile>-->
+						<!--suiteXmlFile>${suiteXmlFile}</suiteXmlFile>-->
 					</suiteXmlFiles>
 					<argLine>
 						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
